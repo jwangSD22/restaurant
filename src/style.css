@@ -1,0 +1,17 @@
+#menuItem{
+    background-color: lightgray;
+    width:500px;
+    height:400px;
+    border: 2px solid red;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#innerMenuImgDiv{
+width:300px;
+height:200px;
+
+}

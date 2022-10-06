@@ -1,7 +1,15 @@
-import myFunc from "./menuItems";
-import makeDiv from "./addMenuFunction";
+import './style.css';
+import addToMenu from "./addMenuFunction";
+import menuItems from './menuItems'
+
 
 const body = document.querySelector('body');
-body.appendChild(makeDiv(myFunc()[1]))
 
 
+
+addToMenu(menuItems(),body)
+
+function deleteMenu(){
+    while (body.firstChild)
+    body.removeChild(body.firstChild)
+}
